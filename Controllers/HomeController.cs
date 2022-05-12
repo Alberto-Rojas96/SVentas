@@ -32,6 +32,7 @@ namespace WSVenta.Controllers
         public IActionResult Error()
         {
             var index = 0;
+            var index2 = 0;
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
